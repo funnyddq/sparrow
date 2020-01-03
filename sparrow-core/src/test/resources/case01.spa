@@ -1,0 +1,30 @@
+// AddTwoSum_64.asm - Chapter 3 example.
+// 测试数据
+mode 64
+entry code
+
+function ExitProcess
+
+segment code
+{
+	mov eax, 1
+	mov rax, 0x11
+	//mov rbx, [eax + 1]
+
+start:
+	mov rbx, 2
+	mov rcx, 3
+	mov rdx, 4
+}
+
+segment data
+{
+	mov	rax, 5
+	mov rbx, 3
+	//add	rax, 6
+	//mov sum, rax
+
+	//mov   ecx,0
+	//call  ExitProcess
+	//sum qword 0
+}

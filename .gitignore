@@ -5,6 +5,8 @@
 *.jar
 *.war
 *.ear
+*.lex
+*.ast
 
 .idea/
 target/

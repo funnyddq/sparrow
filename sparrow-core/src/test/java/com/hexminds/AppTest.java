@@ -1,5 +1,6 @@
 package com.hexminds;
 
+import com.hexminds.sparrow.App;
 import org.testng.Assert;
 import org.testng.annotations.Test;
 
@@ -8,10 +9,13 @@ import org.testng.annotations.Test;
  */
 public class AppTest {
     /**
-     * 示例
+     * 测试
      */
     @Test
-    public void shouldAnswerWithTrue() {
-        Assert.assertTrue(true);
+    public void run() {
+        String[] args = new String[1];
+        args[0] = "src/test/resources/case01.spa";
+        App.main(args);
+        return;
     }
 }
